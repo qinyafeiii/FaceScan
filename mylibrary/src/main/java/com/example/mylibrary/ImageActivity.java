@@ -9,7 +9,6 @@ import android.hardware.Camera;
 import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
 import android.os.Bundle;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -21,6 +20,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.google.zxing.client.android.AutoScannerView;
+import com.google.zxing.client.android.camera.CameraManager;
 
 import java.io.IOException;
 import java.util.List;
@@ -52,16 +54,13 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
     private boolean isFlashLightOn = false;
     //摄像头默认是后置， 0：前置， 1：后置
     private int cameraPosition = 1;
-
-
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);// 去掉标题栏
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);// 设置全屏
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.img_main);
         initView();
     }
 
@@ -93,6 +92,7 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
 
         AlphaAnimation alphaAnimation = (AlphaAnimation) AnimationUtils.loadAnimation(this, R.anim.txt_alpha);
         txt_title.startAnimation(alphaAnimation);
+
 
     }
 

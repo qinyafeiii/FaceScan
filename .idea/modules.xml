@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/android-CameraVideo-master.iml" filepath="$PROJECT_DIR$/android-CameraVideo-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxinglite/zxinglite.iml" filepath="$PROJECT_DIR$/zxinglite/zxinglite.iml" />
     </modules>
   </component>
 </project>
