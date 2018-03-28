@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:\GitPros\android-CameraVideo-master\android-CameraVideo.iml" filepath="F:\GitPros\android-CameraVideo-master\android-CameraVideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-CameraVideo-master.iml" filepath="$PROJECT_DIR$/android-CameraVideo-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+    </modules>
+  </component>
+</project>
